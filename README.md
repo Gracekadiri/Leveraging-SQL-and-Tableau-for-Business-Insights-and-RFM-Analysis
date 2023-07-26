@@ -3,6 +3,11 @@
 ## Introduction
 In this project, I analyzed sales data using SQL queries and leveraged Tableau's visualization capabilities to derive meaningful business insights. Additionally, I performed RFM analysis to assess customer behavior based on their recency, frequency, and monetary value. The segmentation of customers allowed me to understand distinct customer groups and tailor marketing strategies to improve customer retention and drive revenue growth.
 
+
+## Dashboard
+![Sales Analysis Tableau](https://github.com/Kadiis/Leveraging-SQL-and-Tableau-for-Business-Insights-and-RFM-Analysis/assets/106782819/998ce6cc-493b-4286-9dd5-5ab50d34cf3d)
+
+
 ## Analysis
 ```ruby
 --- Inspecting data
