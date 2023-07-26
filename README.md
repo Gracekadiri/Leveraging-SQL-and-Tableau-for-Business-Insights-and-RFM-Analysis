@@ -1,7 +1,7 @@
 # Leveraging-SQL-and-Tableau-for-Business-Insights-and-RFM-Analysis
 
 ## Introduction
-this project is to analyze historical sales data to gain actionable insights that can drive strategic decision-making and enhance revenue growth. Additionally, we explore customer segmentation to better understand customer behavior and tailor marketing efforts to specific customer groups.
+In this project, I analyzed sales data using SQL queries and leveraged Tableau's visualization capabilities to derive meaningful business insights. Additionally, I performed RFM analysis to assess customer behavior based on their recency, frequency, and monetary value. The segmentation of customers allowed me to understand distinct customer groups and tailor marketing strategies to improve customer retention and drive revenue growth.
 
 ## Analysis
 ```ruby
