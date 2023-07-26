@@ -75,7 +75,6 @@ Quantity of Classic Cars Ordered in November: In November, a total of 7,548 unit
 ## Customer Segmentation using RFM
 
 ```ruby
--- Which of our customer falls into the 'Loyal' segment based on RFM analysis
 WITH rfm AS (
     SELECT
         CUSTOMERNAME AS CUSTOMERTITLE,
