@@ -57,8 +57,23 @@ SELECT PRODUCTLINE, SUM(QUANTITYORDERED) AS OrderValue
 FROM sales_data
 Where MONTH_ID = 11 AND PRODUCTLINE = 'Classic Cars'
 GROUP BY  PRODUCTLINE;
+```
 
+Quick Insights from the Analysis:
 
+Revenue by Year: The year 2004 saw the highest revenue, totaling around £4,724,162.59. However, in 2005, the revenue decreased significantly to approximately £1,791,486.71.
+
+Revenue by Deal Size: Customers in the "Medium" deal size category contributed the most to the revenue, generating around £6,087,432.24. The "Small" deal size category followed with approximately £2,643,077.35 in revenue, while the "Large" category had the lowest revenue of about £1,302,119.26.
+
+Best Sales Month: November was the most profitable month, with 597 orders and a total revenue of approximately £2,118,885.67.
+
+Best Selling Product Line in November: In November, "Classic Cars" were the best-selling products, with 219 orders and a total revenue of around £825,156.26.
+
+Quantity of Classic Cars Ordered in November: In November, a total of 7,548 units of "Classic Cars" were ordered, making it the most popular product.
+
+## Customer Segmentation using RFM
+
+```ruby
 -- Which of our customer falls into the 'Loyal' segment based on RFM analysis
 WITH rfm AS (
     SELECT
@@ -98,3 +113,6 @@ FROM rfm_score
 ORDER BY rfm_cell DESC;
 
 ```
+## Conclusion 
+Based on these segments, the company can tailor its marketing and retention strategies accordingly. It should focus on providing exceptional service and personalized offers to Loyal and Active Customers, while implementing targeted campaigns to re-engage Potential Churners and Slipping Away customers. For Lost Customers, the company may consider offering special incentives to win them back. By understanding the different customer segments, the company can optimize its efforts to maximize customer retention and revenue growth.
+
