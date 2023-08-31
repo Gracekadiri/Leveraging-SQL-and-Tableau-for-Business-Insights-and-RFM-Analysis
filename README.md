@@ -5,7 +5,7 @@ In this project, I analyzed sales data using SQL queries and leveraged Tableau's
 
 
 ## Dashboard
--- Link
+
 https://public.tableau.com/app/profile/kadiri.grace.edose/viz/SalesDashboard_16899151589960/Dashboard1?publish=yes
 
 ![Sales Analysis Tableau](https://github.com/Kadiis/Leveraging-SQL-and-Tableau-for-Business-Insights-and-RFM-Analysis/assets/106782819/998ce6cc-493b-4286-9dd5-5ab50d34cf3d)
